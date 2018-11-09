@@ -1,5 +1,6 @@
 package br.com.alpha.controllers;
 
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -33,4 +34,5 @@ public class ClientController {
 		
 		return new Client(clientId, url);
 	}
+	
 }
