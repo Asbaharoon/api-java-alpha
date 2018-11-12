@@ -15,7 +15,7 @@ import br.com.alpha.bean.User;
 import br.com.alpha.repository.UserRepository;
 
 @Service
-public abstract class CustomUserDetailService implements UserDetailsService {
+public class CustomUserDetailService implements UserDetailsService {
 	
 	@Autowired
     private UserRepository userRepository;
