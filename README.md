@@ -12,5 +12,5 @@ Projeto criado pela inicialização do [Spring Initializr](https://start.spring.
 
 ### Descrição do projeto
 
-O projeto consite em uma solução autenticada, utilizando certificado SSL (https), que permita que a url da entidade Client seja dinamicamente obtida de uma fonte externa (redis). 
+O projeto consiste em uma solução autenticada, utilizando certificado SSL (https), que permita que a url da entidade Client seja dinamicamente obtida de uma fonte externa (redis). 
 
